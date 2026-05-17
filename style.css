@@ -15,8 +15,8 @@ background:
 linear-gradient(
 180deg,
 #000000,
-#09090b,
-#111827
+#050505,
+#0f0f0f
 );
 
 min-height:100vh;
@@ -217,10 +217,18 @@ transition:.4s;
 .search-box button:hover{
 
 transform:
-translateY(-4px);
+translateY(-2px);
 
 box-shadow:
-0 0 25px rgba(147,51,234,.5);
+0 8px 20px rgba(124,58,237,.35);
+
+}.search-box button:hover{
+
+transform:
+translateY(-2px);
+
+box-shadow:
+0 8px 20px rgba(124,58,237,.35);
 
 }
 
@@ -277,13 +285,12 @@ font-size:14px;
 
 background:#7c3aed;
 
-transform:scale(1.08);
+transform:scale(1.05);
 
 box-shadow:
-0 0 15px rgba(139,92,246,.5);
+0 5px 15px rgba(124,58,237,.3);
 
 }
-
 
 /* STATUS */
 
@@ -374,10 +381,10 @@ left:100%;
 .card:hover{
 
 transform:
-translateY(-8px);
+translateY(-5px);
 
 box-shadow:
-0 0 30px rgba(255,255,255,.1);
+0 10px 25px rgba(0,0,0,.45);
 
 }
 
@@ -710,7 +717,10 @@ rgba(255,255,255,.04);
 
 background:#7c3aed;
 
-transform:translateY(-3px);
+transform:translateY(-2px);
+
+box-shadow:
+0 5px 15px rgba(124,58,237,.3);
 
 }
 
