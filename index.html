@@ -26,84 +26,144 @@ rel="stylesheet"
 
 <body>
 
+<!-- BACKGROUND GLOW -->
+
 <div class="bg-glow"></div>
+
+<!-- MAIN CONTAINER -->
 
 <div class="container">
 
-<!-- HEADER -->
+    <!-- HEADER -->
 
-<div class="header">
+    <div class="header">
 
-<h1>
-🎬 MovieFinder
-</h1>
+        <h1>
+            🎬 MovieFinder
+        </h1>
 
-<p>
-Discover Movies & TV Shows Instantly
-</p>
+        <p>
+            Discover Movies & TV Shows Instantly
+        </p>
 
-</div>
+    </div>
 
+    <!-- SEARCH BOX -->
 
-<!-- SEARCH -->
+    <div class="search-box">
 
-<div class="search-box">
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Search movies or TV series..."
+        autocomplete="off"
+        />
 
-<input
-type="text"
-id="searchInput"
-placeholder="Search movies or TV series..."
-autocomplete="off"
-/>
+        <button id="searchBtn">
 
-<button id="searchBtn">
+            Search
 
-Search
+        </button>
 
-</button>
+    </div>
 
-</div>
+    <!-- QUICK SEARCH -->
 
+    <div class="suggestion">
 
-<!-- QUICK SEARCH -->
+        <span onclick="quickSearch('Batman')">
+            Batman
+        </span>
 
-<div class="suggestion">
+        <span onclick="quickSearch('Avengers')">
+            Avengers
+        </span>
 
-<span onclick="quickSearch('Batman')">
-Batman
-</span>
+        <span onclick="quickSearch('Wednesday')">
+            Wednesday
+        </span>
 
-<span onclick="quickSearch('Avengers')">
-Avengers
-</span>
+        <span onclick="quickSearch('Stranger Things')">
+            Stranger Things
+        </span>
 
-<span onclick="quickSearch('Wednesday')">
-Wednesday
-</span>
+    </div>
 
-<span onclick="quickSearch('Stranger Things')">
-Stranger Things
-</span>
+    <!-- STATUS -->
 
-</div>
+    <div id="status">
 
+        Start searching your movie...
 
-<!-- STATUS -->
+    </div>
 
-<div id="status">
+    <!-- MOVIE CONTAINER -->
 
-Start searching your movie...
+    <div id="movieContainer">
 
-</div>
-
-
-<!-- MOVIE CONTAINER -->
-
-<div id="movieContainer">
+    </div>
 
 </div>
 
-</div>
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h3>
+            🎬 MovieFinder Black Edition
+        </h3>
+
+        <p>
+            Discover trending movies and TV shows instantly with a modern cinematic experience.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">
+                Home
+            </a>
+
+            <a href="#">
+                Movies
+            </a>
+
+            <a href="#">
+                TV Shows
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <span>
+                🌐
+            </span>
+
+            <span>
+                🎥
+            </span>
+
+            <span>
+                🍿
+            </span>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 MovieFinder | Developed by Ananthaa Krisnan
+
+        </p>
+
+    </div>
+
+</footer>
 
 <script src="script.js"></script>
 
